@@ -1,4 +1,5 @@
-##  This is the lab report for lab1
+#  Lab report for lab1
+##  Tom Tang A02
 
 ```
 # cd
