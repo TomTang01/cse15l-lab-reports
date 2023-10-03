@@ -7,6 +7,7 @@
 [user@sahara ~/lecture1]$ cd README
 bash: cd: README: Not a directory
 ```
+The cd command with no arguement was run from the default directory
 ```
 # ls
 [user@sahara ~]$ ls
