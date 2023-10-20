@@ -57,3 +57,6 @@ This one has a error message as output. Starting from the point where the user e
 
 ##  Screenshot of terminal interaction where I logged into `ieng6` with my course-specific account without being asked for a password:
 ![Image](screenshot6.png)
+
+##  Something I did not know before lab 2&3:
+I did not know that java had a built in URI packages. I always thought that a server can only be created by some kind of registration on the internet and never thought that java can easily create simple servers. And of course I did not know how the URLs of websites worked ; did not know that URLs are made up of the domain, the path, the query, and the anchor.
