@@ -41,6 +41,6 @@ class StringServer {
 
 ```
 Screenshots of using `/add-message` :
-![Screenshot](sceenshot1.png)
-![Screenshot](sceenshot2.png)
-![Screenshot](sceenshot3.png)
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
+![Screenshot](screenshot3.png)
