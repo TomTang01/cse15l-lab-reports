@@ -52,7 +52,7 @@ Starting from the point where the user enters the url with the `/add-message`, t
 2. How are you
 
 ##  Screenshot of the path to the *private* key for my SSH key for logging into `ieng6`:
-![Image](screenshot4.png)
+![Image](screenshot4replace.png)
 
 ##  Screenshot of the path to the *public* key for my SSH key for logging into `ieng6`:
 ![Image](screenshot5.png)
