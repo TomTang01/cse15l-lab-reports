@@ -43,3 +43,5 @@ The cat command with no arguement was ran from the default directory, same with 
 Thus no arguement means to tell the terminal to read whatever is printed next in the terminal by the user.
 A directory as the arguement tells the terminal to read the directory, which has no text within so returns Is a directory.
 A filepath as the arguement tells the terminal to read the contents in the file.
+
+Passed!
