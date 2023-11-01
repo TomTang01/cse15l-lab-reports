@@ -44,7 +44,7 @@ static void reverseInPlace(int[] arr) {
 ---
 
 ##  Researching Commands
-The command I chose is `grep`. All nformation is taken from the man grep page [https://linuxcommand.org/lc3_man_pages/grep1.html](https://linuxcommand.org/lc3_man_pages/grep1.html)            4 command-line options of grep:
+The command I chose is `grep`. All information is taken from the man grep page [https://linuxcommand.org/lc3_man_pages/grep1.html](https://linuxcommand.org/lc3_man_pages/grep1.html). 4 command-line options of grep:
 * -i : Ignore uppercase vs. lowercase
     * Ignore  case  distinctions,  so that characters that differ only in case match each other.
 * -v : Invert match
