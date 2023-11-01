@@ -41,14 +41,15 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+---
 
 ##  Researching Commands
 The command I chose is `grep`. 4 command-line options of grep:
 * -i: Ignore uppercase vs. lowercase
-  Ignore  case  distinctions,  so that characters that differ only in case match each other.
+Ignore  case  distinctions,  so that characters that differ only in case match each other.
 * -v: Invert match
-  Invert the sense of matching, to select non-matching lines.
+Invert the sense of matching, to select non-matching lines.
 * -l: --files-with-matches
-  Suppress  normal  output;  instead  print  the name of each input file from  which  output  would  normally  have  been printed.  The scanning will stop on the first match.
+Suppress  normal  output;  instead  print  the name of each input file from  which  output  would  normally  have  been printed.  The scanning will stop on the first match.
 * -r, --recursive
-  Read all files under each directory, recursively, following symbolic  links only if they are on the command line.  Note that if no file operand is given, grep searches the working directory.  This is equivalent to the -d recurse option.
+Read all files under each directory, recursively, following symbolic  links only if they are on the command line.  Note that if no file operand is given, grep searches the working directory.  This is equivalent to the -d recurse option.
