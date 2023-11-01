@@ -1,5 +1,6 @@
 #  Lab Report 3
 
+##  Bugs
 The error I choose was from the ArrayExamples class.
 A failure-inducing input would be:
 ```
@@ -40,3 +41,17 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+
+##  Researching Commands
+The command I chose is `grep`. Command-line options of grep:
+* -e pattern
+* -i: Ignore uppercase vs. lowercase.
+* -v: Invert match.
+* -c: Output count of matching lines only.
+* -l: Output matching files only.
+* -n: Precede each matching line with a line number.
+* -b: A historical curiosity: precede each matching line with a block number.
+* -h: Output matching lines without preceding them by file names.
+* -s: Suppress error messages about nonexistent or unreadable files.
+* -f file: Take regexes from a file.
+* -o: Output the matched parts of a matching line.
