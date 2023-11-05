@@ -48,6 +48,7 @@ The command I chose is `grep`. All information is taken from the man grep page [
 * -i : Ignore uppercase lowercase
     * Ignore case distinctions. It will find all the lines of all the files (with satisfying path pattern) with the string with any of the letters in upper or lowercase.
     * Examples:
+
 ```
 ASUS@LAPTOP-3JK5PASM MINGW64 /d/UCSD/15l/lab5/docsearch (main)
 $ grep -i "tHIs rna" technical/biomed/*.txt
@@ -73,9 +74,11 @@ $ grep -i "dna" technical/plos/pmed.0020103.txt
           Hoxc6 (NM_004503), human insulin cDNA (J00265),
 
 ```
+
 * -v : Invert match
     * Invert the sense of matching, returns all of the non-matching lines of all the files that have a path that satisfies the pattern.
     * Examples:
+
 ```
 ASUS@LAPTOP-3JK5PASM MINGW64 /d/UCSD/15l/lab5/docsearch (main)
 $ grep -v " " technical/government/Media/Hard_to_Get.txt
@@ -145,9 +148,11 @@ way of life as well as a doctrine.
 
 
 ```
+
 * -l : --files-with-matches
     * Prints out the file names of the all the files that have path satisfying the pattern that contain the given string.
     * Examples:
+
 ```
 ASUS@LAPTOP-3JK5PASM MINGW64 /d/UCSD/15l/lab5/docsearch (main)
 $ grep -l "false" technical/911report/*.txt
@@ -168,9 +173,11 @@ $ grep -l "not cured" technical/biomed/*.txt
 technical/biomed/1471-2466-2-4.txt
 
 ```
+
 * -r : --recursive
     * Lists all the lines of all the files with the correct pattern that contain the given string. Without the -r, grep can only read one specific file.
     * Examples:
+
 ```
 ASUS@LAPTOP-3JK5PASM MINGW64 /d/UCSD/15l/lab5/docsearch (main)
 $ grep -r "false" technical/plos/pmed.0020059.txt
