@@ -175,7 +175,7 @@ technical/biomed/1471-2466-2-4.txt
 ```
 
 * -r : --recursive
-    * Lists all the lines of all the files with the correct pattern that contain the given string. Without the -r, grep can only read one specific file.
+    * Lists all the lines of all the files within the path directory with the correct pattern that contain the given string.
     * Examples:
 
 ```
