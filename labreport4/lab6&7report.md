@@ -8,7 +8,7 @@ Sreenshot of step 4 through step 9:
 
 **Step 4:** Keys pressed: *`<up>` `<enter>`*. This was the last command I entered before logging into the server so it is the most previous command in my bash history. Thus I can use the *`<up>`* arrow to access it.
 
-**Step 5:** Keys pressed: *`git` `<spacebar>` `clone` `<spacebar>` `<ctrl>+v` `<enter>`*. I copied the ssh URL link to my repository using *`<ctrl>+c`* so now I can just copy and paste it it to the bash prompt.
+**Step 5:** Keys pressed: *`git` `<spacebar>` `clone` `<spacebar>` `<ctrl>+v` `<enter>`*. I copied the `ssh` URL link to my repository using *`<ctrl>+c`* so now I can just copy and paste it it to the bash prompt.
 
 **Step 6:** Keys pressed: *`cd` `<spacebar>` `la` `<tab>` `<enter>` `bash` `<spacebar>` `tes` `<tab>` `<enter>`*. I first changed directory into lab7 then called on the `test.sh` file. I used *`<tab>`* because it prevents typos. There was only one firectry starting with "la" in the home directory and there was only one file starting with "tes" in the lab7 directory. So it was safe to use `<tab>`.
 
