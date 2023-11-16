@@ -10,7 +10,7 @@ Sreenshot of step 4 through step 9:
 
 **Step 5:** Keys pressed: *`git` `<spacebar>` `clone` `<spacebar>` `<ctrl>+v` `<enter>`*. I copied the ssh URL link to my repository using *`<ctrl>+c`* so now I can just copy and paste it it to the bash prompt.
 
-**Step 6:** Keys pressed: *`cd` `<spacebar>` `la` `<tab>` `<enter>` `bash` `<spacebar>` `tes` `<tab>` `<enter>`*. I first changed directory into lab7 then called on the `test.sh` file. I used *`<tab>`* because it prevents typos. There was only one firectry starting with "la" in the home directory and there was only one file starting with "tes" in the lab7 directory. So it was safe to use `<tab>`
+**Step 6:** Keys pressed: *`cd` `<spacebar>` `la` `<tab>` `<enter>` `bash` `<spacebar>` `tes` `<tab>` `<enter>`*. I first changed directory into lab7 then called on the `test.sh` file. I used *`<tab>`* because it prevents typos. There was only one firectry starting with "la" in the home directory and there was only one file starting with "tes" in the lab7 directory. So it was safe to use `<tab>`.
 
 **Step 7 part 1:** Keys pressed: *`vim` `<spacebar>` `<shift>+l` `is` `<tab>` `.java` `<enter>`*. I used *`<tab>`* to finish `ListExamples.java` because the file name is long and this can prevent typos. It did not finish the file name because there is another file called `ListExamplesTests.java` in the same directory and it does not know which one I want. Thus it stopped at `ListExamples` and waited for me to finish or give it more information. I chose to enter the rest of the name manually becasue it was not very long. Now the file is open in vim.
 
