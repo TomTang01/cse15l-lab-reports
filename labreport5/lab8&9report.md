@@ -7,7 +7,7 @@ the correct methods (bash grade.sh https://github.com/ucsd-cse15l-f22/list-metho
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/output.png)
 
 The error messages mean that they cannot find the junit package. But I did `javac` and `java`
-with junit as needed. Here is a screenshot of running the Test code:
+with junit as needed. CPATH was declared as `CPATH='.;/lib/hamcrest-core-1.3.jar;/lib/junit-4.13.2.jar'`. Here is a screenshot of running the Test code:
 
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/code.png)
 
@@ -15,11 +15,13 @@ with junit as needed. Here is a screenshot of running the Test code:
 
 **TA Response:**
 
-It seems that the directory you are running the grade.sh is not the same directory as the Test java files, which if I am not mistaken are in the subdirectory `grading-area`. In this case I would reccommend changing directory into `grading-area` before running `javac -cp $CPATH *.java` and `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples`. As I have written here, the java files do not contain the pathnames. 
+It seems that the directory you are running the grade.sh is not the same directory as the Test java files, which if I am not mistaken are in the subdirectory `grading-area`. In this case I would reccommend changing directory into `grading-area` before running `javac -cp $CPATH *.java` and `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples`. As I have written here, the java files do not contain the pathnames. Remember to change CPATH to the relative location of the `grading-area`.
 
 ---
 
-
+**Student Reply:**
+It worked! Thank you so much!
+![Image](http://url/a.png)
 
 ---
 ## Part 2
