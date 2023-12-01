@@ -17,7 +17,7 @@ I tried running junit in the terminal outside of the `grade.sh` file and it work
 
 **TA Response:**
 
-It seems that the directory you are running the grade.sh is not the same directory as the Test java files, which if I am not mistaken are in the subdirectory `grading-area`. In this case I would reccommend changing directory into `grading-area` before running `javac -cp $CPATH *.java` and `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples`. As I have written here, the java files do not contain the pathnames. Remember to change CPATH to the relative location of the `grading-area`.
+It seems that the directory you are running the grade.sh is not the same directory as the Test java files, which if I am not mistaken are in the subdirectory `grading-area`. In this case I would reccommend changing directory into `grading-area` before running `javac -cp $CPATH *.java` and `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples`. As I have written here, the java files do not contain the pathnames. Remember to change CPATH to the relative location of the `grading-area` instead of `LIST-EXAMPLES-GRADER`.
 
 ---
 
