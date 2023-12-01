@@ -10,7 +10,7 @@ the correct methods, it shows a compile error. Here is a screenshot:
 The error messages mean that they cannot find the junit package. But I did `javac` and `java`
 with junit as needed. Here is a screenshot of running the Test code:
 ```
-![Image](http://url/a.png)
+![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/output.png)
 
 
 ---
