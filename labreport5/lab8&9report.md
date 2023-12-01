@@ -22,6 +22,7 @@ It seems that the directory you are running the grade.sh is not the same directo
 **Student Reply:**
 It worked! Thank you so much!
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/coutput.png)
+I think this means that the java file names after the `javac` and `java` commands calling junit cannot contain pathnames.
 
 ---
 ## Part 2
