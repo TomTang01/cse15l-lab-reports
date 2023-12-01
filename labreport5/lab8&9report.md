@@ -1,5 +1,8 @@
 #  Lab 8&9 Report
 ## Part 1
+**Student Post:** Hi, I am currently having some issues with the grade.sh in lab6. When I run the code with the correct methods, it shows a compile error. Here is a screenshot:
+![Image](http://url/a.png)
+The error messages mean that they cannot find the junit package. But I did `javac` and 
 ---
 ## Part 2
 I learnt a lot of new skills in debugging. `JDB` was something I did not know of and I think it is one of the best ways of debugging 
