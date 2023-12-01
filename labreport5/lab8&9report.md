@@ -2,9 +2,11 @@
 ## Part 1
 **Student Post:** 
 ```
-Hi, I am currently having some issues with the grade.sh in lab6. When I run the code with the correct methods, it shows a compile error. Here is a screenshot:
+Hi, I am currently having some issues with the grade.sh in lab6. When I run the code with
+the correct methods, it shows a compile error. Here is a screenshot:
 ![Image](http://url/a.png)
-The error messages mean that they cannot find the junit package. But I did `javac` and `java` with junit as needed. Here is a screenshot of running the Test code:
+The error messages mean that they cannot find the junit package. But I did `javac` and `java`
+with junit as needed. Here is a screenshot of running the Test code:
 ![Image](http://url/a.png)
 ```
 
