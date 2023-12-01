@@ -5,13 +5,13 @@ Hi, I am currently having some issues with the grade.sh in lab6. When I run the 
 the correct methods, it shows a compile error. My failure inducing input is `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`. 
 Here is a screenshot:
 
-![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/output.png)
+![Image](output.png)
 
 The error messages mean that they cannot find the junit package. But I did `javac` and `java`
 with junit as needed. CPATH was declared as `CPATH='.;/lib/hamcrest-core-1.3.jar;/lib/junit-4.13.2.jar'`. 
 I tried running junit in the terminal outside of the `grade.sh` file and it works fine, so this means that my `ListExamples.java` and `TestLestExamples.java` are both correct. Here is a screenshot of how I ran the Test code in `grade.sh`:
 
-![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/code.png)
+![Image](code.png)
 
 
 
@@ -24,7 +24,7 @@ It seems that the directory you are running the grade.sh is not the same directo
 **Student Reply:**
 It worked! Thank you so much!
 
-![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/coutput.png)
+![Image](coutput.png)
 
 The java file names after the `javac` and `java` commands calling junit cannot contain pathnames. You have to change directory to make it work.
 
