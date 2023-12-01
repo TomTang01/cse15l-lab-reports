@@ -3,7 +3,7 @@
 **Student Post:** 
 ```
 Hi, I am currently having some issues with the grade.sh in lab6. When I run the code with
-the correct methods, it shows a compile error. Here is a screenshot:
+the correct methods (bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected), it shows a compile error. Here is a screenshot:
 ```
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/output.png)
 ```
@@ -12,6 +12,9 @@ with junit as needed. Here is a screenshot of running the Test code:
 ```
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/code.png)
 
+---
+
+**TA Response:**
 
 ---
 ## Part 2
