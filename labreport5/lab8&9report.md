@@ -13,20 +13,22 @@ I tried running junit in the terminal outside of the `grade.sh` file and it work
 
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/code.png)
 
----
+
 
 **TA Response:**
 
 It seems that the directory you are running the grade.sh is not the same directory as the Test java files, which if I am not mistaken are in the subdirectory `grading-area`. In this case I would reccommend changing directory into `grading-area` before running `javac -cp $CPATH *.java` and `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples`. As I have written here, the java files do not contain the pathnames. Remember to change CPATH to the relative location of the `grading-area` instead of `LIST-EXAMPLES-GRADER`.
 
----
+
 
 **Student Reply:**
 It worked! Thank you so much!
+
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/coutput.png)
+
 The java file names after the `javac` and `java` commands calling junit cannot contain pathnames. You have to change directory to make it work.
 
----
+
 ## Part 2
 I learnt a lot of new skills in debugging. `JDB` was something I did not know of and I think it is one of the best ways of debugging 
 because you can look at all of the local variables at a given time thus easy to see where the bug is.
