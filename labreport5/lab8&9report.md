@@ -1,20 +1,25 @@
 #  Lab 8&9 Report
 ## Part 1
 **Student Post:** 
-```
 Hi, I am currently having some issues with the grade.sh in lab6. When I run the code with
 the correct methods (bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected), it shows a compile error. Here is a screenshot:
-```
+
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/output.png)
-```
+
 The error messages mean that they cannot find the junit package. But I did `javac` and `java`
 with junit as needed. Here is a screenshot of running the Test code:
-```
+
 ![Image](https://github.com/TomTang01/cse15l-lab-reports/blob/main/labreport5/code.png)
 
 ---
 
 **TA Response:**
+
+It seems that the directory you are running the grade.sh is not the same directory as the Test java files, which if I am not mistaken are in the subdirectory `grading-area`. In this case I would reccommend changing directory into `grading-area` before running `javac -cp $CPATH *.java` and `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples`. As I have written here, the java files do not contain the pathnames. 
+
+---
+
+
 
 ---
 ## Part 2
