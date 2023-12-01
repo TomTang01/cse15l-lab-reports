@@ -28,6 +28,7 @@ It worked! Thank you so much!
 
 The java file names after the `javac` and `java` commands calling junit cannot contain pathnames. You have to change directory to make it work.
 
+---
 
 ## Part 2
 I learnt a lot of new skills in debugging. `JDB` was something I did not know of and I think it is one of the best ways of debugging 
